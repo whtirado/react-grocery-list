@@ -1,10 +1,12 @@
 .main-header {
-  font-family: $font-family;
-  font-weight: bold;
-  font-size: 36px;
-  padding: 20px;
-  border-bottom: 1px solid;
-  border-color: $accent-color;
-  display: flex;
-  justify-content: center;
+  .header-content {
+    font-family: $font-family;
+    font-weight: bold;
+    font-size: 36px;
+    padding: 20px;
+    border-bottom: 1px solid;
+    border-color: $accent-color;
+    display: flex;
+    justify-content: center;
+  }
 }
