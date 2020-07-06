@@ -115,12 +115,14 @@
     width: 23%;
   }
   .grocery-list .product:hover {
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
     -webkit-box-shadow: 0 0 20px #ccc;
             box-shadow: 0 0 20px #ccc;
-    -webkit-transition: ease-in-out;
-    transition: ease-in-out;
-    -webkit-transition-duration: 0.1s;
-            transition-duration: 0.1s;
     border-top-left-radius: 1em;
     border-bottom-right-radius: 1em;
     -webkit-transform: rotate(1deg);

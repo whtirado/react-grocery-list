@@ -72,9 +72,8 @@
     }
 
     .product:hover {
+      @include transitionEase($duration: 0.2s);
       box-shadow: 0 0 20px #ccc;
-      transition: ease-in-out;
-      transition-duration: 0.1s;
       border-top-left-radius: 1em;
       border-bottom-right-radius: 1em;
       transform: rotate(1deg);

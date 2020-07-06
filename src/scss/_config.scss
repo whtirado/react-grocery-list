@@ -7,6 +7,12 @@ $line-height: 150%;
 $medium-screens: 767px;
 $large-screens: 1024px;
 
+@mixin transitionEase($duration: 0.5s) {
+  transition-property: all;
+  transition-duration: $duration;
+  transition-timing-function: ease-in-out;
+}
+
 @mixin mediumScreen {
   @media only screen and (min-width: $medium-screens) {
     @content;
