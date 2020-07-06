@@ -14,9 +14,7 @@ export default function GroceryList() {
               <article key={product.id} className='product'>
                 {/* Product Qty */}
                 <div className='product-qty'>
-                  <span className='uppercase bold accent-text'>
-                    Qty: {product.qty}
-                  </span>
+                  <span className='uppercase bold'>Qty: {product.qty}</span>
                 </div>
 
                 {/* Product Item */}
@@ -28,7 +26,7 @@ export default function GroceryList() {
                 </div>
 
                 {/* Product Category */}
-                <footer className='product-footer uppercase bold accent-text'>
+                <footer className='product-footer uppercase bold'>
                   {product.category}
                 </footer>
               </article>
