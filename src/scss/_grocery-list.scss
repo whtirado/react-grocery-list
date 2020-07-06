@@ -55,7 +55,7 @@
   }
 
   /* Medium Screen */
-  @media only screen and (min-width: $medium-screens) {
+  @include mediumScreen {
     .wrapper {
       justify-content: center;
     }
@@ -82,7 +82,7 @@
   }
 
   /* Large Screen */
-  @media only screen and (min-width: $large-screens) {
+  @include largeScreen {
     .product-container {
       flex-grow: 0;
       width: 980px;

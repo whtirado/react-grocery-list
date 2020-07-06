@@ -6,3 +6,15 @@ $font-size: 16px;
 $line-height: 150%;
 $medium-screens: 767px;
 $large-screens: 1024px;
+
+@mixin mediumScreen {
+  @media only screen and (min-width: $medium-screens) {
+    @content;
+  }
+}
+
+@mixin largeScreen {
+  @media only screen and (min-width: $large-screens) {
+    @content;
+  }
+}
